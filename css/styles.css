@@ -1,0 +1,40 @@
+/* Stylesheet */
+body {
+	background: #000;
+}
+
+p, h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+	text-transform: uppercase; 
+}
+
+header {
+	
+}
+
+nav {
+	
+}
+
+blockquote {
+	
+}
+
+footer {
+	
+}
+
+section {
+	
+}
+
+.container_12 {
+	background: #FFF;
+}
+
+.showgrid {
+	background: url("../img/12-col-grid.gif") !important;
+}
