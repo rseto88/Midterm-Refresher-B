@@ -1,6 +1,6 @@
 /* Stylesheet */
 body {
-	background: #000;
+	background: url("../../../Downloads/Midterm-Refresher-B-master/img/bg.png");
 }
 
 p, h3 {
@@ -11,30 +11,44 @@ h3 {
 	text-transform: uppercase; 
 }
 
-header {
-	
+li {
+  float: left;
+  line-height: 50px;
+  list-style: none;
+	margin: 0 5px;
+  text-align: right;
 }
 
-nav {
-	
+a {
+  color: #fff;
+  display: block;
+  height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px 0 0;
+  width: 150px;
 }
 
-blockquote {
-	
+#google a:hover {
+  background: url("../../../Downloads/Midterm-Refresher-B-master/img/chrome.png") no-repeat 30px center;
 }
 
-footer {
-	
+#mozilla a:hover {
+  background: url("../../../Downloads/Midterm-Refresher-B-master/img/firefox.png") no-repeat 30px center;
 }
 
-section {
-	
+#apple a:hover {
+  background: url("../../../Downloads/Midterm-Refresher-B-master/img/safari.png") no-repeat 30px center;
 }
 
-.container_12 {
-	background: #FFF;
+#opera a:hover {
+  background: url("../../../Downloads/Midterm-Refresher-B-master/img/opera.png") no-repeat 30px center;
+}
+
+#microsoft a:hover {
+  background: url("../../../Downloads/Midterm-Refresher-B-master/img/ie.png") no-repeat 30px center;
 }
 
 .showgrid {
-	background: url("../img/12-col-grid.gif") !important;
+	background: url("../../../Downloads/Midterm-Refresher-B-master/img/12-col-grid.gif") !important;
 }
